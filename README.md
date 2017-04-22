@@ -14,9 +14,11 @@
 	
 ---------------------------------------
 # Set up for envirnment
-   Download this sweety project.
+   Download this sweety project and make inspector execute correctly.
     
     $ git clone https://github.com/proyar/CO-FP-2017.git
+    $ cd CO-FP-2017
+    $ chmod u+x inspector
     Before we begin to undertake the project, we should download what we need, that is RISCV tool. In the Part I, it will introduce RISCV tool briefly. You have to download the source code of RISCV-tools from our github’s repository, and follow these commands that can update the repository and install it.
 	
 First thing before we install the tools, it’s necessary to set the $RISCV environment variable:
@@ -27,8 +29,9 @@ Alternatively, you can open your own .bashrc and add the path manually:
 	
 	export RISCV=$TOP/I-love-CO
 	PATH=${PATH}:$TOP/I-love-CO/bin 
-Download the RISCV tool repository:
+Download the RISCV tool repository on the $TOP:
 
+    $ cd ~
 	$ git clone https://github.com/proyar/riscv-tool
 Once you have downloaded, you need to update it and build the tools(It will take some time.):
 
