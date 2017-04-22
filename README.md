@@ -18,7 +18,7 @@
 	
 First thing before we install the tools, it’s necessary to set the $RISCV environment variable:
 	
-	$ export RISCV=$TOP/I-love-CO.
+	$ export RISCV=$TOP/I-love-CO
 	$ export PATH=$PATH:$RISCV/bin
 Alternatively, you can open your own .bashrc and add the path manually:
 	
