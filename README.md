@@ -16,7 +16,7 @@
 # Set up for envirnment
    Download this sweety project.
     
-    $ git clone 
+      $ git clone https://github.com/proyar/CO-FP-2017.git
     Before we begin to undertake the project, we should download what we need, that is RISCV tool. In the Part I, it will introduce RISCV tool briefly. You have to download the source code of RISCV-tools from our github’s repository, and follow these commands that can update the repository and install it.
 	
 First thing before we install the tools, it’s necessary to set the $RISCV environment variable:
