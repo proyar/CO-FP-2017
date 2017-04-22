@@ -10,7 +10,7 @@
     In this program, it’s written to do images processing by above-mentioned method, and it has two filters which will blur the images and find edge of the images separately via 2D-convolution method.    
     For more information, please check the link to learn more about these techniques:
 	
-  [2D-convolution](http://homepages.inf.ed.ac.uk/rbf/HIPR2/convolve.htm),    [bluring](http://homepages.inf.ed.ac.uk/rbf/HIPR2/gsmooth.htm),   [edge detection(Laplacian of Gaussian)](http://homepages.inf.ed.ac.uk/rbf/HIPR2/log.htm)
+  [2D-convolution](http://homepages.inf.ed.ac.uk/rbf/HIPR2/convolve.htm),  [image kernel](http://setosa.io/ev/image-kernels/),   [bluring](http://homepages.inf.ed.ac.uk/rbf/HIPR2/gsmooth.htm),   [edge detection(Laplacian of Gaussian)](http://homepages.inf.ed.ac.uk/rbf/HIPR2/log.htm)
 	
 ---------------------------------------
 # Set up for envirnment
