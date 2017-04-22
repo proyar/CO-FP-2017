@@ -70,7 +70,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
 
     We provided the program that you will deal with it in the entire project. In the program, it makes use of two different filters (blur and LoG) on one input image through convolution respectively and generates 2 outputs which are stored under "Output" directory. You can read description on the top to understand how to use this reference code.
 
-* Please compile this program and run the binary code in spike.
+* Please compile this program and run the riscv binary code in spike.
 
 * Originally, spike doesn’t simulate cache, it provides users with commands(--ic=\<Sets>:\<Ways>:\<Block sizes>,--dc=\<Sets>:\<Ways>:\<Block sizes>) that can connect spike with cache,please simulate just only simulate D$.You are welcome to rewrite Makefile to use cache in spike.For more information for spike,type this command.
 
