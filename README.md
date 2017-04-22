@@ -19,7 +19,7 @@
     $ git clone https://github.com/proyar/CO-FP-2017.git
     $ cd CO-FP-2017
     $ chmod u+x inspector
-    Before we begin to undertake the project, we should download what we need, that is RISCV tool. In the Part I, it will introduce RISCV tool briefly. You have to download the source code of RISCV-tools from our github’s repository, and follow these commands that can update the repository and install it.
+    Before we begin to undertake the project, we should download RISCV tool. In the Part I, it will introduce RISCV tool briefly. You have to download the source code of RISCV-tools from our github’s repository, and follow these commands that can update the repository and install it.
 	
 First thing before we install the tools, it’s necessary to set the $RISCV environment variable:
 	
