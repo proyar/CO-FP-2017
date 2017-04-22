@@ -8,15 +8,12 @@ SPIKE-OPTION	= pk
 
 CHECKER	= inspector
 
-inspector: inspector.c
-	$(CC-HOST) -o $@ $<
-
 
 .PHONY: clean host run run-host
 clean:
-	rm -fr $(TARGET) $(TARGET-HOST) $(CHECKER) ./Output/*
+	rm -fr $(TARGET) $(TARGET-HOST) ./Output/*
 
-host: dip.c bmp.h cnv.h inspector
+host: dip.c bmp.h cnv.h 
 	$(CC-HOST) -o $(TARGET-HOST) $<
 riscv: dip.c bmp.h cnv.h
 	$(CC) -o $(TARGET) $<
@@ -30,4 +27,3 @@ riscv-run:
 host-run: 
 	./$(TARGET-HOST)
 	./$(CHECKER)
-
