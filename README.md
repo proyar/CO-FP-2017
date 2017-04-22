@@ -7,7 +7,7 @@
 # Introduction 
     In general, the major job of DIP(Digital image process) is using algorithms and analyzing images with computers. Mainly, spatial domain filtering is commonly used to modify or enhance an image. In other words, you can emphasize or remove certain feature by doing so.  
     
-    In this program, it’s written to do image processing by above-mentioned method, and it has two filters which will blur the image and find edge of the image separately via 2D-convolution method.    
+    In this program, it’s written to do images processing by above-mentioned method, and it has two filters which will blur the images and find edge of the images separately via 2D-convolution method.    
     For more information, please check the link to learn more about these techniques:
 	
   [2D-convolution](http://homepages.inf.ed.ac.uk/rbf/HIPR2/convolve.htm),    [bluring](http://homepages.inf.ed.ac.uk/rbf/HIPR2/gsmooth.htm),   [edge detection(Laplacian of Gaussian)](http://homepages.inf.ed.ac.uk/rbf/HIPR2/log.htm)
