@@ -35,7 +35,7 @@ Download the RISCV tool repository on the $TOP:
 	$ git clone https://github.com/proyar/riscv-tools
 Once you have downloaded, you need to update it and build the tools(It will take some time.):
 
-    $ cd riscv-tool/
+    $ cd riscv-tools/
 	$ git submodule update --init --recursive
 	$ ./build.sh
 After finish it, You should notice that you will get some new commands in your Linux command.
