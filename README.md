@@ -25,7 +25,7 @@ First thing before we install the tools, it’s necessary to set the $RISCV envi
 	
 	$ export RISCV=$TOP/I-love-CO     //$TOP is /home/your_workstataion_account/
 	$ export PATH=$PATH:$RISCV/bin
-Alternatively, you can open your own .bashrc and add the path manually:
+Alternatively, you can open your own .bashrc and add the path manually(Reopen your workstation as long as you have saved the .bashrc):
 	
 	export RISCV=$TOP/I-love-CO
 	PATH=${PATH}:$TOP/I-love-CO/bin 
