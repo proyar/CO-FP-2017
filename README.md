@@ -101,9 +101,10 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
       total_cache_access_time = access_count * AMAT
 * Compare the total cache access time between the original program and modified program to make sure that it gets better performance. Warning, if your result is equal or worse than the original program, you will get zero point on this part.
 
-* The program “inspector.c” can tell you that whether your modified program’s output is correct or not. It indicates you are forbidden from receiving the wrong result or else you will get zero point.
+* The code “inspector” can tell you that whether your modified program’s output is correct or not. It indicates you are forbidden from receiving the wrong result or else you will get zero point.
 
-* Turn over only your modified program(s),and don’t modify the “inspector.c”, it’s not a good way to escape from reality.
+* Turn over only your modified program(s),the rules are written below the README.
+
 * Grade: 20% for code. 10% for performance rank. 10% for report.
 
 ## Bonus(3%~5%)Find the best cache construction to your program
@@ -124,7 +125,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
 * There are two main functions in “cachesim.cc”, access and victimize. When tracer calls trace, the cache will call access. The access will check tag and then do the write or read. the original design is that it uses LFSR to find the victim when a replacement happens.
 
 * You are asked to focus on cache replacement policy, please redesign the other replacement policy and write down what is your design in the report.
-* Only “cachesim.cc” and “cachesim.h” can be modified. Do not touch other files.
+* Only “cachesim.cc” and “cachesim.h” can be modified and turn over this two files. Do not touch other files.
 
 * Ignore “class fa_cache_sim_t” in both “cachesim.h” and “cachesim.cc”.
 
