@@ -46,7 +46,7 @@ We will use scripts to compile the c code into riscv binary code:
 To run the riscv binary code in spike:
 
 	$ make riscv-run
-You may want to test the program first on your host machine. Similarly, you can use these commands to complete the task..
+You may want to test the program first on your host machine. Similarly, you can use these commands to complete the task.
 	
 	$ make host
     $ make host-run
