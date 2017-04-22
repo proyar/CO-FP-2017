@@ -101,7 +101,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
       total_cache_access_time = access_count * AMAT
 * Compare the total cache access time between the original program and modified program to make sure that it gets better performance. Warning, if your result is equal or worse than the original program, you will get zero point on this part.
 
-* The code “inspector” can tell you that whether your modified program’s output is correct or not. It indicates you are forbidden from receiving the wrong result or else you will get zero point.
+* The code “inspector” can tell you that whether your modified program’s output is correct or not. If your result is wrong,inspector will give you "Sorry" message. It indicates you are forbidden from receiving the wrong result or else you will get zero point.
 
 * Turn over only your modified program(s),the rules are written below the README.
 
