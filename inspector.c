@@ -16,7 +16,7 @@ char *goldenOutputNames[numOutput] = {
 	"GoldenOutput/LoGObsceneBug.bmp",
 	"GoldenOutput/LoGDeeHuiGray.bmp"
 };
-GoldenOutput
+
 int check(BMP *bmptr1, BMP *bmptr2)
 {
 	BYTE byte1, byte2;
