@@ -1,8 +1,8 @@
-CC	= ../riscv-toolll/bin/riscv64-unknown-elf-gcc
+CC	= ../I-love-CO/bin/riscv64-unknown-elf-gcc
 CC-HOST	= gcc
 TARGET	= dip-riscv
 TARGET-HOST	= dip
-SPIKE	= ../riscv-toolll/bin/spike
+SPIKE	= ../I-love-CO/bin/spike
 SPIKE-OPTION	= pk
 #SPIKE-OPTION	=--ic=64:1:64 --dc=64:1:64 pk   (for part I example)   
 
