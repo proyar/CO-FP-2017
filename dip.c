@@ -22,13 +22,6 @@ BYTE *results[numFilter][numInput];
 
 int imgHeight, imgWidth, imgSize;
 
-void setImageInfo()
-{
-	imgHeight = bmpFiles[0].height;
-	imgWidth = bmpFiles[0].width;
-	imgSize = imgHeight * imgWidth * 3;
-}
-
 void loadImages()
 {
 	int i;
@@ -38,19 +31,12 @@ void loadImages()
 	}
 }
 
-void saveImages()
+
+void setImageInfo()
 {
-	BMP bmpTemp;
-	int i, j;
-
-	bmpTemp = bmpFiles[0];
-
-	for(i = 0; i < numFilter; i++){
-		for(j = 0; j < numInput; j++){
-			bmpTemp.data = results[i][j];	
-			bmpSave(&bmpTemp, outputNames[i][j]);
-		}
-	}
+	imgHeight = bmpFiles[0].height;
+	imgWidth = bmpFiles[0].width;
+	imgSize = imgHeight * imgWidth * 3;
 }
 
 void initData()
@@ -71,6 +57,22 @@ void initResults()
 		for(j = 0; j < numInput; j++)
 			results[i][j] = malloc(imgSize * sizeof(BYTE));
 }
+
+void saveImages()
+{
+	BMP bmpTemp;
+	int i, j;
+
+	bmpTemp = bmpFiles[0];
+
+	for(i = 0; i < numFilter; i++){
+		for(j = 0; j < numInput; j++){
+			bmpTemp.data = results[i][j];	
+			bmpSave(&bmpTemp, outputNames[i][j]);
+		}
+	}
+}
+
 
 void freeMem()
 {
