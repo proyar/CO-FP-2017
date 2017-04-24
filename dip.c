@@ -1,7 +1,7 @@
 #include "bmp.h"
 #include "cnv.h"
 #define numInput 2
-#define numFilter 2
+#define numFilter 1
 
 
 char *inputNames[numInput] = {
