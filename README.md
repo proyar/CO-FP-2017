@@ -110,7 +110,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
 ## Bonus(3%~5%)Find the best cache construction to your program
 * Find out the L1$(both of D$ and I$) configuration to make your cache accessing time fastest.
 
-* If your AMAT is less within 10% than your original result, you can get 3 points. If it’s among 10% to 20%, you can get 4 points. If it’s beyond 30%, you can get 5 points.
+* If your AMAT is less within 20% than your original result, you can get 3 points. If it’s among 20% to 50%, you can get 4 points. If it’s beyond 50%, you can get 5 points.
 
     Example: I get AMAT that is 2000-unit time in the part II, after I adjust the cache configuration and I get new AMAT is 800-unit time. Then I have improved 60%[(2000-800)/2000 * 100%] so I will get 5 points.
 
