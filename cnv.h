@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define kernSize 5
 #define numInput 2
-#define numFilter 2
+#define numFilter 1
 
 extern BYTE *data[numInput];
 extern BYTE *results[numFilter][numInput];
