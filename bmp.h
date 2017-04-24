@@ -37,7 +37,7 @@ typedef struct BMP {
     BYTE creserved; // unused (=0)
     // Raster Data
     BYTE *data;
-} BMP;
+} BMP
 
 typedef struct Pixel {
     BYTE R;
