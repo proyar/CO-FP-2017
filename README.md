@@ -142,7 +142,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
 
 * Run the reference program in spike ,not the modified program which is written by you in the part II. In this time, it’s not required that you need to get better performance. In the other words, you will not get zero point due to worse performance, only get lower rank.
 
-* Assume hit time is 1 unit time, and as for miss penalty, it takes 200- unit time to access the DRAM to retrieve the correct data. Please calculate total total cache access time for I1$ and D1$, and write down your answer in your report.
+* Assume hit time is 1 unit time, and as for miss penalty, it takes 200- unit time to access the DRAM to retrieve the correct data. Please calculate total total cache access time for D1$, and write down your answer in your report.
 
 * Grade: 10% for code. 20% for performance rank. 10% for report.
 ---------------------------------------
