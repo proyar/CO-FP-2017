@@ -93,7 +93,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
  
 * Improve the reference code performance and explain the reason how you do this in the report.(Hint : We suggest that you may improve "cnv.h",but you also can modify other code files.)
 
-* To confirm that whether the performance can get better or not, please create a 4KB(64X2X64)instruction-cache and 4KB(64X2x64) data-cache (AXBXC means Sets X Ways X line size) and run your modified program in spike connects with these caches.
+* To confirm that whether the performance can get better or not, please create a 4KB(64X1X64)instruction-cache and 4KB(64X1x64) data-cache (AXBXC means Sets X Ways X line size) and run your modified program in spike connects with these caches.
 
 * Assume hit time is 1 unit time, and as for miss penalty, it takes 200- unit time to access the DRAM to retrieve the correct data. Please calculate total cache access time for I1$ and D1$, and write down your answer in your report.
 
@@ -138,7 +138,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
       $ make
       $ make install
 
-* Please create a 4KB(64X2X64)instruction-cache and 4KB(64X2x64) data-cache and run the program in spike connects with these modified caches.
+* Please create 4KB(64X4x64) data-cache and run the program in spike connects with these modified caches.
 
 * Run the reference program in spike ,not the modified program which is written by you in the part II. In this time, it’s not required that you need to get better performance. In the other words, you will not get zero point due to worse performance, only get lower rank.
 
