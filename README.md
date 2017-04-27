@@ -13,7 +13,7 @@
   [2D-convolution](http://homepages.inf.ed.ac.uk/rbf/HIPR2/convolve.htm),  [image kernel](http://setosa.io/ev/image-kernels/),   [bluring](http://homepages.inf.ed.ac.uk/rbf/HIPR2/gsmooth.htm),   [edge detection(Laplacian of Gaussian)](http://homepages.inf.ed.ac.uk/rbf/HIPR2/log.htm)
 	
 ---------------------------------------
-# Set up for envirnment
+# Set up for environment
    Download this sweety project and make inspector execute correctly.
     
     $ git clone https://github.com/proyar/CO-FP-2017.git
