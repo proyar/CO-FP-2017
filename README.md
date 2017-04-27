@@ -59,7 +59,7 @@ Do not use this comand:
 Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spike) and riscv-pk(pk) in the riscv-tools.
 
 ---------------------------------------
-# Part I (due date:) Observe the cache behavior in spike
+# Part I (due date:5/22 23:59) Observe the cache behavior in spike
 ## Introduction
     RISCV is a new instruction set architecture (ISA) that was originally designed to support computer architecture research and education, its instruction resembles in risc’s partially.
 
@@ -84,7 +84,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
 
 * Grade: 20% for report.
 
-# Part II (due date:)Find a Program-optimizing approach
+# Part II (due date:6/5 23:59)Find a Program-optimizing approach
 ## Introduction:
     To continue our final project, we should keep an eye on this program, it’s not hard to find that the program has a poor cache performance. That is, there is still room for improvement.
 
@@ -118,7 +118,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
 
 * Write down the cache construction and your improvement percent in your report. 
 ---------------------------------------
-# Part III (Due date:)Find a cache-optimizing approach
+# Part III (Due date:6/23 23:59)Find a cache-optimizing approach
 ## Introduction:
     In the part II, we enhance the cache performance by modifying the program directly. Now that spike can simulate the cache, we can improve the cache performance through modifying the inside the cache construction. The files related to cache simulation are “cachesim.h” and “cachesim.cc”. They lie in the repository “/path/to/riscv-tools/riscv-isa-sim/riscv”.
 ## Specifications:
