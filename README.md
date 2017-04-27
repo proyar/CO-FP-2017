@@ -147,7 +147,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
 * Grade: 10% for code. 20% for performance rank. 10% for report.
 ---------------------------------------
 # Rules
-* Before start at the project, please divide into 9 groups. Each group has two people at most excluding one group can have 3 people. Select a leader who should be in charge of this team. Link on [here](https://docs.google.com/spreadsheets/d/1DM_jQich0SnwY5OrNozZZ6nf1JkRXilO1vQdoKq31cw/edit?usp=sharing) to fill the group list before \2017\/05\/05 23:59.
+* Before start at the project, please divide into 9 groups. Each group has two people at most excluding one group can have 3 people. Select a leader who should be in charge of this team. Link on [here](https://docs.google.com/spreadsheets/d/1DM_jQich0SnwY5OrNozZZ6nf1JkRXilO1vQdoKq31cw/edit?usp=sharing) to fill the group list before 2017\/05\/05 23:59.
 
 * Upload all the required files to E3 in right format before the deadline. TA will write a testing script to grade your project automatically. For the late submission in three days, you will get 70% of your grade. For who hasn't uploaded more than 3 days after the due date, you will just get zero point.
 
