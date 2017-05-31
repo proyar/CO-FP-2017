@@ -138,7 +138,7 @@ Note: You will use at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-sim(spik
       $ make
       $ make install
 
-* Please create 2KB(32X4X64) data-cache and run the program in spike connects with these modified caches.
+* Please create 8KB(32X4X64) data-cache and run the program in spike connects with these modified caches.
 
 * Run the reference program in spike ,not the modified program which is written by you in the part II. In this time, it’s not required that you need to get better performance. In the other words, you will not get zero point due to worse performance, only get lower rank.
 
